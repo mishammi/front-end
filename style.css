@@ -141,3 +141,143 @@ li {
     position:absolute;
     padding-left: 450px;
   }
+
+.body{
+      width: 1440px;
+      height: 2379px;
+      background-color: #ffffff;
+      display: flex;
+  flex-direction: column;
+  }
+
+.bg-bg{ flex-direction: column;
+  width: 1440px;
+  height: 280px;
+  background-color: #000000;
+  margin-top:1400px;
+  justify-content: space-around;
+    display: flex;
+}
+
+.Company-2018 {
+  width: 125px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.Privacy-Legal {
+  width: 120px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.Contact {
+  width: 120px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Careers {
+  width: 106px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.Blog-on-Habr {
+  width: 110px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Get-Newsletter {
+  width: 137px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.up_arrow {
+  width: 164px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer{
+  justify-content: space-around;
+	flex-direction: row;
+    display: flex;
+}
+
+.footer-top{
+  justify-content: Space-between;
+	flex-direction: row;
+    display: flex;
+}
+
+.vk {
+  width: 21px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.twitter {
+  width: 18px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.facebook {
+  width: 9px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.youtube {
+  width: 21px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.inst {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer-end{
+  justify-content: center;
+	flex-direction: row;
+    display: flex;
+}
+
+.footer-img{
+  padding: 30px;
+}
