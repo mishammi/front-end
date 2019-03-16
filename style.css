@@ -3,6 +3,16 @@
     font-family:  Roboto; /* Гарнитура шрифта */
     src: url(fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
    }
+
+body{
+display:block;
+height:2380px;
+margin-bottom:00px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+width:964px;
+}
 .We-are-one-of-the-in{
     width: 380px;
   height: 150px;
@@ -128,7 +138,7 @@ li {
     justify-content: space-around;
 	flex-direction: row;
     display: flex;
-    align-items:center
+    align-items:center;
 }
 
 .mission {
@@ -147,14 +157,14 @@ li {
       height: 2379px;
       background-color: #ffffff;
       display: flex;
-  flex-direction: column;
+      flex-direction: column;
   }
 
 .bg-bg{ flex-direction: column;
   width: 1440px;
   height: 280px;
   background-color: #000000;
-  margin-top:1400px;
+  margin-top:500px;
   justify-content: space-around;
     display: flex;
 }
@@ -280,4 +290,16 @@ li {
 
 .footer-img{
   padding: 30px;
+}
+
+.Bitmap {padding:2px;
+  width: 398px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.main-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
