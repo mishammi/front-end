@@ -298,7 +298,12 @@ li {
   object-fit: contain;
 }
 
-.main-1{padding-top: 50px;
+.main{
+  margin-top: -130px;
+}
+
+
+.main-1{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -319,6 +324,7 @@ li {
 }
 
 .main-img-text{padding-top: 30px;
+  margin-bottom: 50px;
   width: 360px;
   height: 82px;
   font-family: Roboto;
