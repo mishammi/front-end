@@ -1,0 +1,332 @@
+
+@font-face {
+    font-family:  Roboto; /* Гарнитура шрифта */
+    src: url(fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+   }
+
+body{
+display:block;
+height:2380px;
+margin-bottom:00px;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+width:964px;
+}
+.We-are-one-of-the-in{
+    width: 380px;
+  height: 150px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #2ffbc8;
+}
+
+.Digital-chemistry {
+    width: 472px;
+    height: 226px;
+    font-family: Roboto;
+    font-size: 94px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+.logo {
+    width: 36px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
+
+.bg {
+    width: 1440px;
+    height: 700px;
+    background-color: #000000;
+  }
+.menu-top1{
+    display:inline-block;
+}
+
+.menu-nav{
+    width: 46px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff; 
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+.search {margin:20px;
+    width: 27px;
+    height: 28px;
+    object-fit: contain;
+  }
+
+.account {margin:20px;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+  }
+
+.ru {
+    width: 17px;
+    height: 21px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 15px;
+  }
+
+.menu-top-right{flex-grow:1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu-top-top{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.menu{
+    width: 1440px;/*фиксируем ширину обертки*/
+    height: 120px;/*Задаем высоту обертки*/
+    display: flex;
+    justify-content: space-around;
+		
+}
+
+.menu-top{ 
+    color: white;
+    text-align: center; /*Центрируем текст по горизонтали*/
+    display: flex;
+    justify-content: space-around;
+    
+	
+}
+
+.menu-image{
+    margin:20px;
+    width: 50px;
+  height: 10px;
+  object-fit: contain;
+}
+
+.menu-foter{
+    justify-content: space-around;
+	flex-direction: row;
+    display: flex;
+    align-items:center;
+}
+
+.mission {
+    width: 369px;
+    height: 170px;
+    opacity: 0.1;
+    font-family: Roboto;
+    font-size: 94px;
+    color: #ffffff;
+    position:absolute;
+    padding-left: 450px;
+  }
+
+.body{
+      width: 1440px;
+      height: 2379px;
+      background-color: #ffffff;
+      display: flex;
+      flex-direction: column;
+  }
+
+.bg-bg{ flex-direction: column;
+  width: 1440px;
+  height: 280px;
+  background-color: #000000;
+  margin-top:100px;
+  justify-content: space-around;
+    display: flex;
+}
+
+.Company-2018 {
+  width: 125px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.Privacy-Legal {
+  width: 120px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.Contact {
+  width: 120px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Careers {
+  width: 106px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.Blog-on-Habr {
+  width: 110px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Get-Newsletter {
+  width: 137px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.up_arrow {
+  width: 164px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer{
+  justify-content: space-around;
+	flex-direction: row;
+    display: flex;
+}
+
+.footer-top{
+  justify-content: Space-between;
+	flex-direction: row;
+    display: flex;
+}
+
+.vk {
+  width: 21px;
+  height: 12px;
+  object-fit: contain;
+}
+
+.twitter {
+  width: 18px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.facebook {
+  width: 9px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.youtube {
+  width: 21px;
+  height: 15px;
+  object-fit: contain;
+}
+
+.inst {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.footer-end{
+  justify-content: center;
+	flex-direction: row;
+    display: flex;
+}
+
+.footer-img{
+  padding: 30px;
+}
+
+.Bitmap {padding:2px;
+  width: 398px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.main-1{padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bitmap1{padding-top: 30px;
+  display: flex;
+  justify-content: Space-around;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.main-img-text{padding-top: 30px;
+  width: 360px;
+  height: 82px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: var(--black);
+}
