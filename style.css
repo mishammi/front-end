@@ -52,12 +52,12 @@ width:964px;
     color: #ffffff;
   }
 
-.bg {
+.header {
     width: 1440px;
     height: 700px;
     background-color: #000000;
   }
-.menu-top1{
+.menu-footer-name{
     display:inline-block;
 }
 
@@ -134,7 +134,7 @@ li {
   object-fit: contain;
 }
 
-.menu-foter{
+.menu-footer{
     justify-content: space-around;
 	flex-direction: row;
     display: flex;
